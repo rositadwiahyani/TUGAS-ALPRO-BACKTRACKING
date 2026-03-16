@@ -2,9 +2,9 @@
 Disusun untuk memenuhi tugas individu dari dosen pengampu Bapak Arseto Satriyo Nugroho, S.T., M.Eng.
 
 # Identitas #
-Nama  : ROSITA DWI AHYANI  
-NIM   : 21120124120043
-Kelas : B - ALGORITMA PEMROGRAMAN
+Nama     : ROSITA DWI AHYANI  
+NIM      : 21120124120043 
+Kelas    : B - ALGORITMA PEMROGRAMAN
 
 # Deskripsi Program #
 Program ini merupakan implementasi algoritma Backtracking untuk menyelesaikan masalah Rat in a Maze. Seekor tikus harus mencari jalan keluar dari labirin dengan mencoba berbagai kemungkinan jalur. Jika jalur buntu, program akan kembali ke posisi sebelumnya (backtracking) untuk mencoba jalur lain sampai menemukan jalan keluar.
