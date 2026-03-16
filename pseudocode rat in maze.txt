@@ -1,0 +1,29 @@
+ALGORITMA RAT IN MAZE (BACKTRACKING)
+
+START
+Input maze
+Tentukan titik START dan END
+
+FUNCTION Solve(x, y):
+    IF posisi (x, y) adalah END:
+        Tandai jalur
+        RETURN True
+
+    IF posisi aman untuk dilewati:
+        Tandai jalur
+        
+        Coba gerak ke:
+            Bawah
+            Kanan
+            Atas
+            Kiri
+        
+        IF salah satu arah berhasil mencapai END:
+            RETURN True
+        
+        Hapus jalur (Backtracking)
+    
+    RETURN False
+
+Panggil Solve dari posisi START
+END
